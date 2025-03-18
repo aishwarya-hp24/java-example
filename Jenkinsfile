@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'maven'}
+    agent {label 'build'}
     stages{
        stage('Git Checkout Stage'){
             steps{
